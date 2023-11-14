@@ -50,5 +50,5 @@ streamlit.dataframe(my_data_row)
 
 
 add_my_fruit = streamlit.text_input('What fruit would you like to add?')
-my_cur.execute("INSERT INTO fruit_load_list(fruit_name) " "VALUES(%s)", (add_my_fruit))
+#my_cur.execute("INSERT INTO fruit_load_list(fruit_name) " "VALUES(%s)", (add_my_fruit))
 
