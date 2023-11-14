@@ -55,7 +55,4 @@ streamlit.write('Thanks for adding ', add_my_fruit)
 
 my_cur.execute("INSERT INTO fruit_load_list(fruit_name) " "VALUES(%s)", (add_my_fruit))
 
-my_cur.execute(
-    "INSERT INTO fruit_load_list(fruit_name) "
-    "VALUES(?)", (add_my_fruit)
- )
+#my_cur.execute("INSERT INTO fruit_load_list(fruit_name) " "VALUES(?)", (add_my_fruit))
